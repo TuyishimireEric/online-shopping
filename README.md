@@ -16,6 +16,9 @@ This project is based on an eCommerce website built with React and Redux. The us
 ![image](src/images/pic1.png)
 ![image](src/images/pic2.png)
 
+## Live demo
+[Project link](https://et-online-shopping.netlify.app/)
+
 ## Description video
 [Loom Video Link](https://www.loom.com/share/c9e2e7d8cc8b4da29050e6c3e464a3ec)
 
