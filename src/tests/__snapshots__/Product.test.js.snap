@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="four wide column"
+>
+  <a
+    href="/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="ui link cards"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="image"
+        >
+          <img />
+        </div>
+        <div
+          className="content"
+        >
+          <div
+            className="header"
+          />
+          <div
+            className="meta price"
+          >
+            $
+             
+          </div>
+          <div
+            className="meta"
+          />
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;

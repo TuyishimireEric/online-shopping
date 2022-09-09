@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://img.shields.io/badge/Microverse-blueviolet)
+# Online Shopping
+This project is based on an eCommerce website built with React and Redux. The user can check all the products in our and get more details on selected product. The user can also search for a product in our store.
 
-## Available Scripts
+## Milestones
 
-In the project directory, you can run:
+- [x] Milestone 1: **React app setup with redux using the duck pattern**
+- [x] Milestone 2: **Set up the app navigation using react-router**
+- [x] Milestone 3: **Create an API layer using the fakeStore API**
+- [x] Milestone 4: **Create the Redux store including the action creators and the reducers**
+- [x] Milestone 5: **Integrate the redux store into the app and display the data**
+- [x] Milestone 6: **Implement Product searching and get details functionalities**
 
-### `npm start`
+## Project picture
+![image](src/images/pic1.png)
+![image](src/images/pic2.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description video
+[Loom Video Link](https://www.loom.com/share/c9e2e7d8cc8b4da29050e6c3e464a3ec)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With 
 
-### `npm test`
+- HTML
+- CSS
+- JavaScript ES6
+- React
+- Redux
+- Jest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Getting Started
+To get a local copy of this exercise, Please follow these simple example steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository or download the Zip folder:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**``git@github.com:29td/online-shopping.git``**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the location of the folder in your machine:
 
-### `npm run eject`
+**``you@your-Pc-name:~$ cd <folder>``**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Press Entqer to navigate to your local clone.
+4. Open terminal and run this command npm install
+5. after finishing step 5, run this command npm start to run the project
+6. for testing components, you can run: npm run test.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now you can go and play with it as you wish :smile:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Authors
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+👤 **Eric TuyishimireEric**
 
-## Learn More
+- GitHub: [@TuyishimireEric](https://github.com/TuyishimireEric)
+- LinkedIn: [@TuyishimireEric](https://www.linkedin.com/in/TuyishimireEric/)
+- E-mail: <a href="mailto:tuyishimireericc@gmail.com">tuyishimireericc@gmail.com</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](https://github.com/29td/online-shopping/issues).
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Hat tip to anyone whose code was used
+- Big thanks to the [Microverse](https://bit.ly/MicroverseTN) community with a special mention of my coding partners, morning session teams, standup teams and reviewers.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+This project is [MIT](./LICENSE.txt) licensed.

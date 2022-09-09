@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navBar {
+  width: 100vw;
+  height: 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fe3e00;
+  padding: 0 12%;
+  position: fixed;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.nav-title {
+  height: 4vw;
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title img {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+.nav-title .web-name {
+  color: #fff;
+  font-size: 2.2vw;
+  margin-top: 0.3vw;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vw;
+  width: 36%;
+}
+
+.search input {
+  width: 20vw;
+  height: 2.3vw;
+  padding: 2px 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  border: none;
+}
+
+.search button {
+  width: 7vw;
+  height: 2.3vw;
+  padding: 2px 8px;
+  display: flex;
+  gap: 0.5vw;
+  align-items: center;
+  background: #ffd7d1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 6px 0;
+  cursor: pointer;
+  border: none;
+  transition: all 0.4s ease-in-out;
+  transition-delay: 2ms;
+}
+
+.search button:hover {
+  width: 8vw;
+  gap: 1vw;
+  background: #0dd39ee8;
+}
+
+.search button img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+.search button p {
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBar {
+    width: 100vw;
+    height: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 12%;
+  }
+
+  .nav-title {
+    height: 10vw;
+    width: 70%;
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-title img {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .nav-title .web-name {
+    font-size: 4.4vw;
+    margin-top: 0.3vw;
+  }
+
+  .search {
+    height: 12vw;
+    width: 60%;
+  }
+
+  .search input {
+    width: 35vw;
+    height: 6vw;
+  }
+
+  .search button {
+    width: 10vw;
+    height: 6vw;
+    display: flex;
+    gap: 0.5vw;
+  }
+
+  .search button:hover {
+    width: 12vw;
+    gap: 1vw;
+    background: #0dd39ee8;
+  }
+
+  .search button img {
+    width: 4vw;
+    height: 4vw;
+  }
+
+  .search button p {
+    display: none;
+  }
+}
