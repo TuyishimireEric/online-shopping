@@ -15,9 +15,11 @@ exports[`renders correctly 1`] = `
         className="card"
       >
         <div
-          className="image"
+          className="main-image"
         >
-          <img />
+          <img
+            className="main-image"
+          />
         </div>
         <div
           className="content"
@@ -26,14 +28,11 @@ exports[`renders correctly 1`] = `
             className="header"
           />
           <div
-            className="meta price"
+            className="price"
           >
             $
              
           </div>
-          <div
-            className="meta"
-          />
         </div>
       </div>
     </div>
