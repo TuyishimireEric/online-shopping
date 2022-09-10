@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="ui fixed menu"
+  >
+    <div
+      className="navBar"
+    >
+      <div
+        className="nav-title"
+      >
+        <img
+          alt="logo"
+          src="logo.png"
+        />
+        <h1
+          className="web-name"
+        >
+          Online shopping
+        </h1>
+      </div>
+      <div
+        className="search"
+      >
+        <input
+          onChange={[Function]}
+          placeholder="Search..."
+        />
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+        >
+          <button
+            onClick={[Function]}
+            type="submit"
+          >
+            <img
+              alt="logo"
+              src="search.png"
+            />
+            <p>
+              Search
+            </p>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="product-container"
+    />
+    <div
+      className="product-container"
+    />
+  </div>
+</div>
+`;

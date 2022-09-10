@@ -1,0 +1,145 @@
+.product-container {
+  background: #dffcf1;
+  margin: 0 4%;
+  padding: 8vw 3vw 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1vw;
+  justify-content: center;
+  min-height: 40vw;
+}
+
+.ui.link.cards {
+  width: 20vw;
+  height: 32vw;
+  transition: all 0.4s ease-in-out;
+}
+
+.ui.placeholder.segment {
+  margin: 0 16%;
+  padding: 2.4vw 3vw 0;
+}
+
+.back {
+  width: 100%;
+  display: flex;
+  gap: 2vw;
+}
+
+.back-icon {
+  width: 40px;
+  margin-top: 2vw;
+  transition: all 0.4s ease-in-out;
+}
+
+.back-icon:hover {
+  transform: scale(1.1);
+}
+
+.ui.teal.tag.label {
+  width: 15vw;
+  height: 4vw;
+  font-size: 2vw;
+  background-color: #fe3e00;
+  padding: 1vw;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.ui.teal.tag.label:hover {
+  width: 16vw;
+  font-size: 2.1vw;
+  background: #0dd39ee8;
+}
+
+.column.rp {
+  padding-top: 4vw;
+}
+
+.main-image {
+  height: 20vw;
+  width: 18vw;
+}
+
+.price {
+  color: black;
+  font-size: 1.2vw;
+  background-color: #0dd39e4f;
+  margin: 0.2vw 0 0;
+  padding: 0.4vw;
+  position: absolute;
+  bottom: 1vw;
+  right: 0;
+  left: 4vw;
+}
+
+.description {
+  font-size: 1vw;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 1.28571429em;
+  margin-top: -0.21425em;
+  line-height: 1.28571429em;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-container {
+    background: #dffcf1;
+    margin: 0;
+    padding: 20vw 0.4vw;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1vw;
+    justify-content: center;
+  }
+
+  .ui.link.cards {
+    width: 65vw;
+    height: auto;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .main-image {
+    width: 60vw;
+    height: 60vw;
+  }
+
+  .ui.placeholder.segment {
+    margin: 0 2%;
+    padding: 16vw 3vw 0;
+  }
+
+  .ui.teal.tag.label {
+    width: 34vw;
+    height: 10vw;
+    padding: 2vw;
+    font-size: large;
+    background-color: #fe3e00;
+  }
+
+  .header {
+    font-weight: 400;
+    font-size: 0.5em;
+    margin-top: -0.21425em;
+    margin-bottom: 5vw;
+    line-height: 0.5em;
+  }
+
+  .price {
+    color: black;
+    font-size: 4vw;
+    background-color: #0dd39e4f;
+    margin: 2vw 0 0;
+    padding: 0.4vw;
+    position: absolute;
+    bottom: 2vw;
+    right: 0;
+    left: 4vw;
+  }
+
+  .description {
+    font-size: 4vw;
+  }
+}
