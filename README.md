@@ -13,14 +13,14 @@ This project is based on an eCommerce website built with React and Redux. The us
 - [x] Milestone 6: **Implement Product searching and get details functionalities**
 
 ## Project picture
-![image](src/images/pic1.png)
-![image](src/images/pic2.png)
+![image](https://user-images.githubusercontent.com/102757126/189471430-1299d4ba-e2a3-4916-9bb8-8da6d6c919ba.png)
+![image](https://user-images.githubusercontent.com/102757126/189471446-b738c7be-0aa1-460e-ad71-52fbc995dcda.png)
 
 ## Live demo
 [Project link](https://et-online-shopping.netlify.app/)
 
 ## Description video
-[Loom Video Link](https://www.loom.com/share/c9e2e7d8cc8b4da29050e6c3e464a3ec)
+[Loom Video Link](https://www.loom.com/share/748e8553fe244d0499c9942277fbab2d)
 
 ## Built With 
 
@@ -71,6 +71,6 @@ Feel free to check the [issues page](https://github.com/29td/online-shopping/iss
 
 - Hat tip to anyone whose code was used
 - Big thanks to the [Microverse](https://bit.ly/MicroverseTN) community with a special mention of my coding partners, morning session teams, standup teams and reviewers.
-
+- Nelson Sakwa (For the App design)
 ## 📝 License
 This project is [MIT](./LICENSE.txt) licensed.
