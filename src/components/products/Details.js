@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useLocation, Link } from 'react-router-dom';
@@ -31,7 +29,7 @@ const Details = () => {
                 </div>
               </h2>
               <h3 className="ui brown block header">{products[0].category}</h3>
-              <p>{products[0].description}</p>
+              <p className="description">{products[0].description}</p>
               <div className="ui vertical animated button">
                 <div className="visible content">Add to Cart</div>
               </div>
